@@ -24,5 +24,5 @@ done
 
 [ $verbose -eq 1 ] && printf "\n------------------------\n\n"
 
-# Execute all code we find. What's the first that could happen?
+# Execute all code we find. What's the worst that could happen?
 node -e "$code"
